@@ -69,6 +69,7 @@ function blackButton2() {
 document.getElementById("reset").addEventListener("click", resetScore);
 function resetScore() {
   document.getElementById("counter1").value = score = 0;
-  document.getElementById("counter2").value = score = 0;
+  document.getElementById("counter2").value = score2 = 0;
   alert("The game has been restarted!");
 }
+
