@@ -1,12 +1,13 @@
+
+// Variables
+var score = 0;
+var score2 = 0;
+
 // Defalut value
 window.onload = function () {
   document.getElementById("counter1").value = score;
   document.getElementById("counter2").value = score2;
 };
-
-// Variables
-var score = 0;
-var score2 = 0;
 
 // Counter 1 functions
 function redButton() {
@@ -72,4 +73,5 @@ function resetScore() {
   document.getElementById("counter2").value = score2 = 0;
   alert("The game has been restarted!");
 }
+
 
